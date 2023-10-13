@@ -18,7 +18,7 @@
         android:layout_margin="30dp"
         app:cardCornerRadius="30dp"
         app:cardElevation="20dp"
-        android:background="@drawable/custom_edittext">
+        app:cardBackgroundColor="@color/vert_canard">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,18 +36,19 @@
                 android:textSize="30sp"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:textColor="@color/rouge_pastel"/>
+                android:textColor="@color/white"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:id="@+id/username"
                 android:background="@drawable/custom_edittext"
-                android:drawableLeft="@drawable/baseline_person_outline_24"
+                android:drawableLeft="@drawable/white_person"
                 android:drawablePadding="8dp"
                 android:hint="Nom D'utilisateur"
                 android:padding="8dp"
                 android:textColor="@color/black"
+                android:textColorHint="@color/white"
                 android:textColorHighlight="@color/cardview_dark_background"
                 android:layout_marginTop="40dp"/>
 
@@ -56,11 +57,12 @@
                 android:layout_height="50dp"
                 android:id="@+id/password"
                 android:background="@drawable/custom_edittext"
-                android:drawableLeft="@drawable/baseline_password_24"
+                android:drawableLeft="@drawable/white_password"
                 android:drawablePadding="8dp"
                 android:hint="Mot de Passe"
                 android:padding="8dp"
                 android:textColor="@color/black"
+                android:textColorHint="@color/white"
                 android:textColorHighlight="@color/cardview_dark_background"
                 android:layout_marginTop="40dp"/>
 
@@ -71,7 +73,7 @@
                 android:text="Connexion"
                 android:textSize="18sp"
                 android:layout_marginTop="30dp"
-                android:backgroundTint="@color/rouge_pastel"/>
+                android:backgroundTint="@color/bleu_vert"/>
             <!-- app:cornerRadius="20dp -->
 
         </LinearLayout>
@@ -85,11 +87,11 @@
         android:textSize="14sp"
         android:textAlignment="center"
         android:id="@+id/signupText"
-        android:textColor="@color/rouge_pastel"
+        android:textColor="@color/vert_canard"
         android:textStyle="bold"
         android:layout_marginBottom="0dp"/>
 
-    <TextView
+    <!--<TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Espace ADMIN"
@@ -99,5 +101,5 @@
         android:textStyle="bold"
         android:id="@+id/adminText"
         android:textColor="@color/rouge_pastel"/>
-
+        -->
 </LinearLayout>

@@ -8,4 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="rouge_pastel">#ffadad</color>
+    <color name="vert_canard">#006466</color>
+    <color name="bleu_canard">#22577a</color>
+    <color name="bleu_vert">#57cc99</color>
 </resources>

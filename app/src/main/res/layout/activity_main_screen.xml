@@ -10,10 +10,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="30dp"
+        android:padding="9dp"
         android:text="Hello this is a test, I'm the main screen page"
         android:textAlignment="center"
-        android:textColor="@color/rouge_pastel"
+        android:textColor="@color/vert_canard"
         android:textSize="30sp"
         android:textStyle="bold" />
 
