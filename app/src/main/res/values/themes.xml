@@ -2,4 +2,13 @@
 <resources>
 
     <style name="Theme.MoneyBank" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <item name="colorPrimary" type="color">@color/vert_canard</item>
+    <item name="colorPrimaryVariant" type="color">@color/vert_canard2</item>
+    <item name="colorOnPrimary" type="color">@color/white</item>
+    <!-- Secondary brand color. -->
+    <item name="colorSecondary" type="color">@color/vert_canard2</item>
+    <item name="colorSecondaryVariant" type="color">@color/vert_canard3</item>
+    <item name="colorOnSecondary" type="color">@color/white</item>
+
 </resources>

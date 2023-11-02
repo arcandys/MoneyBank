@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainScreen">
 
+    <!-- design trouvé sur youtube, fonctionnalités codées par nos soins -->
+
     <!--
     <TextView
         android:layout_width="match_parent"
@@ -22,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!--   <include layout="@layout/partial_main_activity" /> -->
+        *<include layout="@layout/partial_main_activity"/>
 
     </androidx.core.widget.NestedScrollView>
 
