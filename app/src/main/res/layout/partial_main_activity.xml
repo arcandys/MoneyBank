@@ -31,10 +31,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/solde"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
-        android:text="3234.64 €"
         android:textSize="30dp"
         android:textStyle="bold"
         android:textColor="@color/white"

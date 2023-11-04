@@ -6,32 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainScreen">
 
-    <!-- design trouvé sur youtube, fonctionnalités codées par nous mêmes -->
 
-    <!--
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="9dp"
-        android:text="Hello this is a test, I'm the main screen page"
-        android:textAlignment="center"
-        android:textColor="@color/vert_canard"
-        android:textSize="30sp"
-        android:textStyle="bold"/>
-        -->
+    <!-- design trouvé sur youtube, fonctionnalités codées par nous mêmes -->
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-        *
 
         <include layout="@layout/partial_main_activity" />
 
     </androidx.core.widget.NestedScrollView>
 
     <com.google.android.material.bottomappbar.BottomAppBar
-        android:id="@+id/bottomAppBar"
+        android:id="@+id/botAppBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
@@ -39,6 +26,7 @@
         app:fabCradleRoundedCornerRadius="16dp">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/botNavView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/barre_menu"
@@ -50,9 +38,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/baseline_house_24"
-        app:layout_anchor="@id/bottomAppBar"
+        app:layout_anchor="@id/botAppBar"
         app:fabCustomSize="72dp"
         app:maxImageSize="34dp" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
+

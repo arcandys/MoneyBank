@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "692167203893",
+    "project_id": "moneybank-3c887",
+    "storage_bucket": "moneybank-3c887.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692167203893:android:d0c8be4906fe97421aa57c",
+        "android_client_info": {
+          "package_name": "com.example.moneybank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDf9HmCCAf-tfENLZ7ghIi3twgqtdOkO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
