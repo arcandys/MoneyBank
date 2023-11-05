@@ -2,13 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Votre RIB:"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="6dp"
+        app:cardBackgroundColor="@color/transparent"/>
 
     <TextView
         android:id="@+id/rib"
@@ -22,7 +26,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Votre IBAN:"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"/>
 
     <TextView
         android:id="@+id/iban"
@@ -30,19 +35,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textStyle="italic"/>
+        android:textStyle="italic"
+        android:layout_marginBottom="3dp"/>
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/vert_canard1"/>
+        android:layout_height="25dp"
+        android:background="@color/black"/>
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Informations sur votre Carte:"
-        android:textStyle="bold"/>
+        android:text="Votre numéro de Carte (CONFIDENTIEL):"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="3dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -54,8 +62,23 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Cryptogramme (CONFIDENTIEL):"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="420"
+        android:textStyle="italic"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Date d'expiration:"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -69,6 +92,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fermer"
+        android:layout_marginLeft="30dp"
         android:onClick="fermerPopup"
         android:backgroundTint="@color/vert_canard1"/>
 

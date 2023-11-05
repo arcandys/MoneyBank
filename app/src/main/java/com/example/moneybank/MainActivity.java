@@ -45,7 +45,7 @@ public class MainActivity extends ComponentActivity {
         loginButton = findViewById(R.id.loginButton);
 
         // Get a reference to the "my_data" node
-        myRef = database.getReference("my_data");
+        myRef = database.getReference("data/user1");
 
         // Handle the login button click
         loginButton.setOnClickListener(new View.OnClickListener() {

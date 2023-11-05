@@ -12,7 +12,7 @@
         android:layout_width="64dp"
         android:layout_height="64dp"
         app:cardCornerRadius="32dp"
-        app:cardBackgroundColor="@color/vert_canard1"
+        app:cardBackgroundColor="@color/bleu_canard"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
         app:contentPadding="6dp">

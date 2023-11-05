@@ -22,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
+        android:background="@color/bleu_canard"
         app:fabCradleMargin="8dp"
         app:fabCradleRoundedCornerRadius="16dp">
 
@@ -32,7 +33,7 @@
             android:background="@drawable/barre_menu"
             android:layout_marginEnd="16dp"
             app:menu="@menu/navbar"
-            android:backgroundTint="@color/vert_canard1"/>
+            android:backgroundTint="@color/bleu_canard"/>
 
     </com.google.android.material.bottomappbar.BottomAppBar>
 
@@ -40,8 +41,9 @@
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/baseline_group_add_24"
+        android:src="@drawable/baseline_local_atm_24"
         app:fabCustomSize="72dp"
+        android:background="@color/bleu_canard"
         app:layout_anchor="@id/botAppBar"
         app:maxImageSize="34dp"/>
 

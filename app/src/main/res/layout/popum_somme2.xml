@@ -10,7 +10,7 @@
         android:id="@+id/editTextSomme"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Somme à virer"
+        android:hint="Somme du prêt à demander"
         android:inputType="numberDecimal"/>
 
     <Button
