@@ -12,17 +12,18 @@
 
     <item
         android:id="@+id/vide"
-        android:checkable="false"/>
+        android:checkable="false"
+        android:icon="@drawable/baseline_group_add_24"/>
     <!-- bouton flottant -->
 
     <item
         android:id="@+id/carte"
-        android:title="CB"
+        android:title="Infos"
         android:icon="@drawable/baseline_credit_card_24"/>
 
     <item
         android:id="@+id/rib"
-        android:title="RIB"
-        android:icon="@drawable/baseline_wallet_white_24"/>
+        android:title="Bénéficiaires"
+        android:icon="@drawable/baseline_groups_2_24"/>
 
 </menu>

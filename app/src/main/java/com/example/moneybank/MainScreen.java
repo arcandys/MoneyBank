@@ -60,6 +60,7 @@ public class MainScreen extends AppCompatActivity {
                 } else if(item.getItemId() == R.id.vide){
                     return true;
                 }else if(item.getItemId() == R.id.carte){
+                    ouvrirPopupInfo();
                     return true;
                 }else if(item.getItemId() == R.id.rib){
                     return true;
@@ -132,6 +133,24 @@ public class MainScreen extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void ouvrirPopupInfo() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = getLayoutInflater();
+        View popupinfos = inflater.inflate(R.layout.popup_infos, null);
+        builder.setView(popupinfos);
+        AlertDialog dialog = builder.create();
+        dialog.show();
+
+        Button buttonFermer = popupinfos.findViewById(R.id.boutonFermer);
+        buttonFermer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+
+            }
+        });
     }
 
 
