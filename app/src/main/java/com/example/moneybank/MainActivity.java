@@ -6,15 +6,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.ComponentActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.database.core.operation.Operation;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends ComponentActivity {
 
@@ -22,6 +28,8 @@ public class MainActivity extends ComponentActivity {
     private EditText password;
     private Button loginButton;
     private DatabaseReference myRef;
+
+    private List<Operation> operationsList = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,4 +95,5 @@ public class MainActivity extends ComponentActivity {
         // Start the MainScreen activity
         startActivity(intent);
     }
+
 }

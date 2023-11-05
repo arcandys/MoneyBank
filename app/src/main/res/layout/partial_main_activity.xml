@@ -147,7 +147,10 @@
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/view" />
 
+
+
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/historique"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -156,11 +159,41 @@
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/textView13">
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_margin="10dp"
+        <LinearLayout
+            android:id="@+id/operationsContainer"
             android:layout_width="match_parent"
-            android:layout_height="359dp"
-            tools:listitem="@layout/elements_activites"/>
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+           <!-- <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/texteBas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description de l'opération"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/montant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.00 €"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </LinearLayout>-->
+
+        </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
 
