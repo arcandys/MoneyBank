@@ -6,6 +6,8 @@ MoneyBank is a fictive Android App development project for ESIEA Paris.
 This is a project developped to improve our skills in Java development.  
 *This a fake banking app and does not represent a real product, service or company.*  
 
+To launch the app, install Android Studio, and a device with APK 33, then open the project folder.
+
 **Developped by "arcandys" & Romain**  
 
 
