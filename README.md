@@ -1,7 +1,8 @@
 # MoneyBank
-MoneyBank is an Android App development project for ESIEA
+MoneyBank is a fictional Android App development project for ESIEA
 
 This is a project developped to improve our skills in Java development
-This a fake banking app and does not represent a real product, service or company
 
-Developped by "arcandys" & Romain
+This is a fake banking app and does not represent a real product, service or company
+
+Developped by "arcandys" & Romain 
