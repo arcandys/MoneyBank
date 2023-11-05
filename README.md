@@ -6,7 +6,7 @@ MoneyBank is a fictive Android App development project for ESIEA Paris.
 This is a project developped to improve our skills in Java development.  
 *This a fake banking app and does not represent a real product, service or company.*  
 
-**Developped by Lucas & Romain**  
+**Developped by "arcandys" & Romain**  
 
 
 ## Brainstorming
